@@ -1,0 +1,5 @@
+:root {
+  --content-width: 1110px;
+  --container-offset: 60px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+}

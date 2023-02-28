@@ -1,0 +1,85 @@
+.additional-info {
+  padding: 20px 0 133px;
+  background-color: #EFEFEF;
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item {
+    padding: 35px 40px;
+    width: 49%;
+    background-color: #66C05D;
+  }
+
+  .item__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .item__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    max-width: 250px;
+  }
+
+  .item__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+  }
+
+  .item__text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+
+  .item__input input {
+    width: 225px;
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    border-radius: 30px;
+  }
+
+  .item__input input::placeholder {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+  }
+
+
+  .item__image {
+    width: 140px;
+    height: 106px;
+  }
+
+  .item__button {
+    max-width: 170px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 9px 28px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+  }
+}
